@@ -1,0 +1,4 @@
+<aura:component controller = "TestApexController" implements="force:appHostable" >
+    <aura:attribute name = "Text1" type="String"/>
+<ui:button label="Click Here" press="{!Meth1}"/>
+</aura:component>	
